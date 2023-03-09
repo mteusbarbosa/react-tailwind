@@ -17,7 +17,7 @@ export default function Form({ onSubmit }) {
       <Input type="email" placeholder="Insira seu email" required/>
       <button
         type="submit"
-        className="bg-alura-100 dark:bg-dark-200 rounded-full text-dark-100 dark:text-gray-200 py-1 px-12 uppercase"
+        className="bg-alura-100 dark:bg-dark-200 rounded-full text-dark-100 dark:text-gray-200 py-1 px-12 uppercase hover:animate-pulse hover:shadow-sm hover:shadow-gray-500 hover:dark:shadow-black"
       >
         Seguir
       </button>
